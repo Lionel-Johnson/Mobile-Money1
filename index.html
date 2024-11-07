@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Paiement</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+</body>
+</html>
+
+<div class="wrapper">
+  <div class="payment">
+    <div class="payment-logo">
+        <img src="img/LOGO BIKERE.png" alt="" style="height: 100px; width: 100px; border-radius: 100px;">
+    </div>
+    <h2>Paiement Gateway</h2>
+    <div class="form">
+      <div class="card space icon-relative">
+        <label class="label">Titulaire de la carte:</label>
+        <input type="text" class="input" placeholder="Noms Complets">
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="card space icon-relative">
+        <label class="label">Numéro de la Carte:</label>
+        <input type="text" class="input" data-mask="0000 0000 0000 0000" placeholder="Numéro de la Carte">
+        <i class="far fa-credit-card"></i>
+      </div>
+      <div class="card-grp space">
+        <div class="card-item icon-relative">
+          <label class="label">Date d'Expiration:</label>
+          <input type="text" name="expiry-data" class="input"  placeholder="00 / 00">
+          <i class="far fa-calendar-alt"></i>
+        </div>
+        <div class="card-item icon-relative">
+          <label class="label">CVC:</label>
+          <input type="text" class="input" data-mask="000" placeholder="000">
+          <i class="fas fa-lock"></i>
+        </div>
+      </div>
+        
+      <div class="btn">
+        Payer
+      </div> 
+      
+    </div>
+  </div>
+</div>
